@@ -1,0 +1,186 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:url(back.jpg);
+	background-size: cover;
+	background-position-y: 20%;
+    background-repeat: no-repeat;
+	color:white;
+	cursor: default;
+}
+
+/* Top banner */
+.header-main-div{
+	display:flex;
+	height:70px;
+}
+.header-logo-div{
+	color: white;
+    font-family: system-ui;
+	width:40%;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+/* Address top */
+.header-link-div-one{
+	width:25%;
+	text-align: right;
+	font-family: -webkit-pictograph;
+}
+.header-link-div-one p{
+	margin: 0px;
+	padding-top: 22px;
+}
+.header-link-div-one a{
+	text-decoration:none;
+	color:#ce8f2b;
+	font-family: -webkit-pictograph;
+}
+
+/* Contact number top */
+.header-link-div-two{
+	width:25%;
+	text-align: right;
+	font-family: -webkit-pictograph;
+}
+.header-link-div-two p{
+	margin: 0px;
+	padding-top: 22px;
+}
+.header-link-div-two a{
+	text-decoration:none;
+	color:#ce8f2b;
+	font-family: -webkit-pictograph;
+}
+
+/* Navigation Bar */
+.header-navigation-div{
+	height: 70px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.header-navigation-div a{
+	text-decoration:none;
+	color:white;
+	font-family: system-ui;
+	padding: 25px;
+}
+.header-navigation-div a:hover{
+	color:#ce8f2b;
+}
+.header-navigation-div ol{
+	display:flex;
+	list-style:none;
+}
+.header-navigation-div li{
+	margin: 25px;
+}
+.header-navigation-div select{
+	border: none;
+	border-style:hidden;
+    background-color: transparent;
+    color: white;
+	font-size: 15px;
+}
+.header-navigation-div select:hover{
+	color:#ce8f2b;
+}
+
+/* Main text area */
+.body-heading-text-div{
+    margin-top: 100px;
+	margin-left: 280px;
+	float: left;
+}
+.body-heading-text-div h2{
+	color:white;
+	font-family: -webkit-pictograph;
+	margin-bottom: -10px;
+	letter-spacing: 3px;
+}
+.body-heading-text-div h1{
+	color:white;
+	font-size: 35px;
+	margin-bottom: -30px;
+	font-family: -webkit-pictograph;
+	letter-spacing: 3px;
+}
+.body-heading-text-div p{
+	padding-top:80px;
+	color:white;
+	font-family: system-ui;
+	font-size: 15px;
+	margin-bottom: -90px;
+}
+
+/* Button in main text area */
+.body-heading-text-div button{
+	height: 50px;
+    width: 140px;
+	color:#ffbb50;
+	font-family: system-ui;
+	margin-top: 135px;
+	border-radius: 10px;
+	font-size: 15px;
+	background-color: transparent;
+	border-color:#ffbb50;
+	margin-right: 5px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.body-heading-text-div button:hover{
+	background-color: #ffbb50;
+	color: black;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+
+	/* Top banner */
+.header-logo-div{
+	width:37%;
+}
+
+/* Address top */
+.header-link-div-one p{
+	font-size: 18px;
+}
+.header-link-div-one a{
+	font-size: 18px;
+}
+
+/* Contact number top */
+.header-link-div-two p{
+	font-size: 18px;
+}
+.header-link-div-two a{
+	font-size: 18px;
+}
+
+/* Navigation Bar */
+.header-navigation-div{
+	height: 73px;
+}
+.header-navigation-div a{
+	font-size: 18px;
+}
+.header-navigation-div select{
+	font-size: 17px;
+}
+
+/* Main text area */
+.body-heading-text-div{
+    margin-top: 90px;
+	margin-left: 200px;
+}
+.body-heading-text-div h2{
+	font-size: 35px;
+}
+.body-heading-text-div h1{
+	font-size: 37px;
+	margin-bottom: -27px;
+}
+.body-heading-text-div p{
+	font-size: 17px;
+}
+}
